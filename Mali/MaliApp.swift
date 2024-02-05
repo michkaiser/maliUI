@@ -11,7 +11,7 @@ import SwiftUI
 struct MaliApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MaliTabView()
         }
     }
 }

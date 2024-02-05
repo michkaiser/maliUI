@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		417EAFD32B71518F004190DD /* MaliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417EAFD22B71518F004190DD /* MaliApp.swift */; };
-		417EAFD52B71518F004190DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417EAFD42B71518F004190DD /* ContentView.swift */; };
+		417EAFD52B71518F004190DD /* MaliTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417EAFD42B71518F004190DD /* MaliTabView.swift */; };
 		417EAFD72B715196004190DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417EAFD62B715196004190DD /* Assets.xcassets */; };
 		417EAFDA2B715196004190DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417EAFD92B715196004190DD /* Preview Assets.xcassets */; };
 		417EAFE42B715196004190DD /* MaliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417EAFE32B715196004190DD /* MaliTests.swift */; };
 		417EAFEE2B715196004190DD /* MaliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417EAFED2B715196004190DD /* MaliUITests.swift */; };
 		417EAFF02B715196004190DD /* MaliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417EAFEF2B715196004190DD /* MaliUITestsLaunchTests.swift */; };
+		417EAFFD2B715470004190DD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417EAFFC2B715470004190DD /* HomeView.swift */; };
+		417EAFFF2B71547E004190DD /* InvestmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417EAFFE2B71547E004190DD /* InvestmentView.swift */; };
+		417EB0012B71548B004190DD /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417EB0002B71548B004190DD /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		417EAFCF2B71518F004190DD /* Mali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mali.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		417EAFD22B71518F004190DD /* MaliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaliApp.swift; sourceTree = "<group>"; };
-		417EAFD42B71518F004190DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		417EAFD42B71518F004190DD /* MaliTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaliTabView.swift; sourceTree = "<group>"; };
 		417EAFD62B715196004190DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		417EAFD92B715196004190DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		417EAFDF2B715196004190DD /* MaliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		417EAFE92B715196004190DD /* MaliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		417EAFED2B715196004190DD /* MaliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaliUITests.swift; sourceTree = "<group>"; };
 		417EAFEF2B715196004190DD /* MaliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaliUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		417EAFFC2B715470004190DD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		417EAFFE2B71547E004190DD /* InvestmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentView.swift; sourceTree = "<group>"; };
+		417EB0002B71548B004190DD /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				417EAFD22B71518F004190DD /* MaliApp.swift */,
-				417EAFD42B71518F004190DD /* ContentView.swift */,
+				417EB0022B715496004190DD /* Views */,
 				417EAFD62B715196004190DD /* Assets.xcassets */,
 				417EAFD82B715196004190DD /* Preview Content */,
 			);
@@ -125,6 +131,17 @@
 				417EAFEF2B715196004190DD /* MaliUITestsLaunchTests.swift */,
 			);
 			path = MaliUITests;
+			sourceTree = "<group>";
+		};
+		417EB0022B715496004190DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				417EAFFC2B715470004190DD /* HomeView.swift */,
+				417EAFFE2B71547E004190DD /* InvestmentView.swift */,
+				417EB0002B71548B004190DD /* AccountView.swift */,
+				417EAFD42B71518F004190DD /* MaliTabView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				417EAFD52B71518F004190DD /* ContentView.swift in Sources */,
+				417EAFFD2B715470004190DD /* HomeView.swift in Sources */,
+				417EAFD52B71518F004190DD /* MaliTabView.swift in Sources */,
 				417EAFD32B71518F004190DD /* MaliApp.swift in Sources */,
+				417EAFFF2B71547E004190DD /* InvestmentView.swift in Sources */,
+				417EB0012B71548B004190DD /* AccountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
